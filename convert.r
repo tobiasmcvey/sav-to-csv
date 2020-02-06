@@ -10,5 +10,5 @@ load_savfile <- read_spss("~/projects/sav-to-csv/data/Innbyggerdel\ tidsserie.sa
 
 saveascsv <- write.csv(load_savfile, file = "~/projects/sav-to-csv/dataset.csv", row.names = FALSE)
 
-load_csvfile <- read.csv("/Users/tobiasmcvey/projects/sav-to-csv/dataset.csv")
+load_csvfile <- read.csv("~/projects/sav-to-csv/dataset.csv")
 
